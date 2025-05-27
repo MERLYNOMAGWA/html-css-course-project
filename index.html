@@ -14,71 +14,72 @@
 <button>Hello</button>
 <a href="https://www.youtube.com/" target="_blank">Link to YouTube</a>
 
-<style>.subscribe-button
-{background-color: rgb(204, 0, 0);
-color: white;
-border: none;
-padding-left: 16px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 16px;
-border-radius: 2px;
-cursor: pointer;
-margin-right: 8px;
-margin-left: 20px;
-transition: opacity 0.15s;
-vertical-align: top;
+<p>Buttons</p>
+
+<style>
+ .subscribe-button
+ {background-color: rgb(204, 0, 0); 
+  color: white;
+  border: none;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  transition: opacity 0.15s;
 }
 
+  .subscribe-button:hover
+  {opacity: 0.8;}
+  .subscribe-button:active
+  {opacity: 0.5;}
 
-.subscribe-button:hover
-{opacity: 0.8;}
-.subscribe-button:active
-{opacity: 0.5;}
 
+  .join-button
+  {background-color: white;
+  border-color: rgb(6, 118, 212);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41,118, 211);
+  padding-left: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+  color: 1s;
+  }
 
-.join-button
-{background-color: white;
-border-color: rgb(6, 118, 212);
-border-style: solid;
-border-width: 1px;
-color: rgb(41,118, 211);
-padding-left: 16px;
-padding-top: 9px;
-padding-bottom: 9px;
-padding-right: 16px;
-border-radius: 2px;
-cursor: pointer;
-margin-right: 8px;
-transition: background-color 0.15s;
-color: 1s;
-}
+  .join-button:hover
+  {background-color: rgb(41,118, 211);
+  color: white;}
+  .join-button:active
+  {opacity:0.7 ;}
 
-.join-button:hover
-{background-color: rgb(41,118, 211);
-color: white;}
-.join-button:active
-{opacity:0.7 ;}
+  .tweet-button
+  {background-color: rgb(29, 155, 240);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
 
-.tweet-button
-{background-color: rgb(29, 155, 240);
-border: none;
-color: rgb(255, 255, 255);
-padding-left: 16px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 16px;
-border-radius: 50px;
-font-weight: bold;
-font-size: 15px;
-cursor: pointer;
-transition: box-shadow 0.15s;
-
-}
-.tweet-button:hover
-{box-shadow: 5px 5px 10px rgba(0 ,0, 0 ,0.15);}
-.tweet-button:active
-{opacity:0.7 ;}
+  }
+  .tweet-button:hover
+  {box-shadow: 5px 5px 10px rgba(0 ,0, 0 ,0.15);}
+  .tweet-button:active
+  {opacity:0.7 ;}
 
 </style>
 
@@ -86,3 +87,84 @@ transition: box-shadow 0.15s;
 <button class="subscribe-button">SUBSCRIBE</button>
 <button class="join-button">JOIN</button>
 <button class="tweet-button">Tweet</button>
+
+
+<style>
+  
+  .video-title 
+  {font-family: Arial;
+  font-weight: bold;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+p {font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-stats{
+  font-size: 14px;
+  color: rgb(96, 96, 96) ;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.video-author{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96) ;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.video-description{
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96) ;
+  width: 280px;
+  line-height: 22px;
+  margin-bottom: 100px;
+}
+
+.apple-text{
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(277, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+}
+
+.shop-link {
+  cursor: pointer;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+}
+
+
+</style>
+
+<p class="video-title">
+  Talking Tech and AI with Google CEO Sundar Pichai!</p>
+
+
+  <p class="video-stats">
+    3.4M views &#183; 6 months ago
+  </p>
+
+  <p class="video-author"> 
+    Marques Brownlee &#10003;
+  </p>
+
+  <P class="video-description">
+    Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+
+  <p class="apple-text">Shop early for the best selection of holiday favourites. <span class="shop-link"> Shop now &#62;</span> 
+  </p>
+
